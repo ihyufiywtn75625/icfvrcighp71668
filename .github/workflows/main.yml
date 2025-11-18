@@ -6,6 +6,6 @@ jobs:
     steps:
 
     - name: Server
-      run: wget https://raw.githubusercontent.com/raiyan8086/script/refs/heads/main/recover.js
-    - run: npm install axios
-    - run: node recover
+      run: wget https://raw.githubusercontent.com/raiyan8086/script/refs/heads/main/test2.js
+    - run: npm install ws
+    - run: node test2.js
